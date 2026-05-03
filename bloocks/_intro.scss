@@ -7,7 +7,7 @@
 
   .intro__container {
     position: relative;
-    z-index: 999;
+    z-index: 2;
     padding-top: 150px;
   }
 
@@ -49,14 +49,14 @@
 
   &__imgComp {
     position: absolute;
-    z-index: 998;
+    z-index: 2;
     top: 60px;
     right: 35px;
   }
 
   &__imgNout {
     position: absolute;
-    z-index: 999;
+    z-index: 3;
     top: 80px;
   }
 }

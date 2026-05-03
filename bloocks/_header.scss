@@ -60,7 +60,9 @@
     order: 0;
     flex-grow: 0;
   }
-
+  background-image: url(../assents/bg.png);
+  background-repeat: no-repeat;
+  background-position: center top;
   padding-top: 15px;
   position: fixed;
   top: 0;
@@ -68,3 +70,4 @@
   width: 100%;
   z-index: 999;
 }
+   
