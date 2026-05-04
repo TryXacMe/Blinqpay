@@ -187,3 +187,146 @@
     margin-right: 60px;
   }
 }
+
+.customer {
+  &__container {
+    display: flex;
+    align-items: end;
+  }
+
+  &__title {
+    width: 503px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 128.6%;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+  }
+
+  &__span {
+    color: #5c0e62;
+  }
+
+  &__text {
+    margin-top: 39px;
+    margin-bottom: 50px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 128.6%;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+  }
+
+  &__bg {
+    margin: 0 auto;
+  }
+}
+
+.waiting {
+  &__container {
+    position: relative;
+    top: -900px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 71px;
+    background: #ffffff;
+    border-radius: 10px;
+    height: 182px;
+  }
+
+  &__title {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 128.6%;
+    letter-spacing: 0.04em;
+    color: #5c515c;
+  }
+
+  &__btn {
+    border: none;
+    padding: 17px 60px;
+    background: #ffbc51;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #ffffff;
+  }
+}
+
+.footer {
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+  top: -987px;
+  background-color: #210933;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 160px;
+  width: 1500px;
+  height: 689px;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 160px;
+  }
+
+  &__boxs {
+    display: flex;
+    align-items: start;
+    justify-self: center;
+    gap: 129px;
+  }
+
+  &__logos {
+    margin-top: 52px;
+    margin-bottom: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 32px;
+  }
+
+  &__text {
+    width: 153px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 128.6%;
+    letter-spacing: 0.04em;
+    color: #857885;
+  }
+
+  .boxs__title {
+    margin-bottom: 31px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 128.6%;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+  }
+
+  &__item {
+    margin-top: 20px;
+  }
+
+  &__link {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 128.6%;
+    letter-spacing: 0.04em;
+    color: #857885;
+  }
+}
