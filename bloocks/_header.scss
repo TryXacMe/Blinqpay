@@ -5,6 +5,10 @@
     justify-content: space-between;
   }
 
+  &__burger {
+    display: none;
+  }
+
   &__menu {
     display: flex;
     align-items: center;
