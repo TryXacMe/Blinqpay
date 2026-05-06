@@ -536,4 +536,13 @@ a {
   .lacus__red1 {
     margin-top: 300px;
   }
+  .customer {
+    display: none;
+  }
+  .waiting {
+    display: none;
+  }
+  .footer {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
