@@ -26,7 +26,7 @@ a {
 .header__container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 150px;
 }
 .header__burger {
   display: none;
@@ -208,6 +208,9 @@ a {
   align-items: center;
   padding: 0px;
   gap: 139px;
+  width: 834px;
+  height: 35px;
+  display: none;
 }
 
 .right__title {
@@ -501,11 +504,36 @@ a {
   .intro__btn {
     padding: 12px 46px;
   }
-  .payments {
-    display: flex;
+  .payments__container {
     flex-direction: column;
+  }
+  .payments__box1 {
+    margin-top: 70px;
+  }
+  .payments__box2 {
+    margin-top: 30px;
+  }
+  .payments__title {
+    font-style: normal;
+    font-weight: 800;
+    line-height: 128.6%;
+    letter-spacing: 0.04em;
+    color: #857885;
   }
   .icons__container {
     display: none;
+  }
+  .lacus {
+    margin-left: 50px;
+  }
+  .lacus__box {
+    flex-direction: column;
+    gap: 0;
+  }
+  .lacus__img {
+    display: none;
+  }
+  .lacus__red1 {
+    margin-top: 300px;
   }
 }/*# sourceMappingURL=style.css.map */

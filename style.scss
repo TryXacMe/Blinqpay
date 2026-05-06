@@ -65,6 +65,9 @@
   align-items: center;
   padding: 0px;
   gap: 139px;
+  width: 834px;
+  height: 35px;
+  display: none;
 }
 
 .right {
@@ -398,11 +401,45 @@
   }
 
   .payments {
-    display: flex;
-    flex-direction: column;
+    &__container {
+      flex-direction: column;
+    }
+
+    &__box1 {
+      margin-top: 70px;
+    }
+
+    &__box2 {
+      margin-top: 30px;
+    }
+
+    &__title {
+      font-style: normal;
+      font-weight: 800;
+      line-height: 128.6%;
+      letter-spacing: 0.04em;
+      color: #857885;
+    }
   }
 
   .icons__container {
     display: none;
+  }
+
+  .lacus {
+    margin-left: 50px;
+
+    &__box {
+      flex-direction: column;
+      gap: 0;
+    }
+
+    &__img {
+      display: none;
+    }
+
+    &__red1 {
+      margin-top: 300px;
+    }
   }
 }
