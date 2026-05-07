@@ -447,9 +447,10 @@
 
   .customer {
     height: 500px;
-    
-    &__left {
-      display: none;
+
+    &__container {
+      display: flex;
+      flex-direction: column;
     }
 
     &__right {
@@ -460,6 +461,31 @@
       margin-top: 150px;
       margin-left: 0;
       width: 367px;
+    }
+
+    &__title {
+      margin-top: 200px;
+      width: 264px;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 24px;
+      line-height: 128.6%;
+      text-align: center;
+      letter-spacing: 0.1em;
+      color: #ffffff;
+    }
+
+    &__text {
+      text-align: center;
+      width: 348px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14.6113px;
+      line-height: 128.6%;
+      letter-spacing: 0.04em;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
     }
   }
 

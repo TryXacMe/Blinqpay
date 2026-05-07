@@ -541,8 +541,9 @@ a {
   .customer {
     height: 500px;
   }
-  .customer__left {
-    display: none;
+  .customer__container {
+    display: flex;
+    flex-direction: column;
   }
   .customer__right {
     width: 367px;
@@ -551,6 +552,29 @@ a {
     margin-top: 150px;
     margin-left: 0;
     width: 367px;
+  }
+  .customer__title {
+    margin-top: 200px;
+    width: 264px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 128.6%;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+  }
+  .customer__text {
+    text-align: center;
+    width: 348px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14.6113px;
+    line-height: 128.6%;
+    letter-spacing: 0.04em;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
   }
   .waiting {
     display: none;
