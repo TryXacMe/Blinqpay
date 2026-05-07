@@ -271,6 +271,7 @@
 }
 
 .footer {
+  width: 100%;
   margin: 0 auto;
   position: relative;
   z-index: 1;
@@ -369,6 +370,7 @@
     background-repeat: no-repeat;
     background-position: center bottom;
     min-height: 500px;
+    min-width: 500px;
 
     &__imgComp {
       display: none;
@@ -446,7 +448,8 @@
   }
 
   .customer {
-    height: 500px;
+    min-height: 500px;
+    min-width: 414px;
 
     &__container {
       display: flex;
@@ -494,6 +497,22 @@
   }
 
   .footer {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    max-width: 480px;
+    height: 1100px;
+
+    &__container {
+      display: block;
+      text-align: center;
+    }
+
+    &__boxs {
+      display: block;
+    }
+
+    &__box {
+      margin-top: 48px;
+    }
   }
 }
