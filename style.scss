@@ -434,17 +434,33 @@
       gap: 0;
     }
 
-    &__img {
-      display: none;
+    &__revorse {
+      display: flex;
+      flex-direction: column-reverse;
     }
 
-    &__red1 {
-      margin-top: 300px;
+    &__img {
+      margin-top: 40px;
+      width: 295.39px;
     }
   }
 
   .customer {
-    display: none;
+    height: 500px;
+    
+    &__left {
+      display: none;
+    }
+
+    &__right {
+      width: 367px;
+    }
+
+    &__img {
+      margin-top: 150px;
+      margin-left: 0;
+      width: 367px;
+    }
   }
 
   .waiting {

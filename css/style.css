@@ -530,14 +530,27 @@ a {
     flex-direction: column;
     gap: 0;
   }
-  .lacus__img {
-    display: none;
+  .lacus__revorse {
+    display: flex;
+    flex-direction: column-reverse;
   }
-  .lacus__red1 {
-    margin-top: 300px;
+  .lacus__img {
+    margin-top: 40px;
+    width: 295.39px;
   }
   .customer {
+    height: 500px;
+  }
+  .customer__left {
     display: none;
+  }
+  .customer__right {
+    width: 367px;
+  }
+  .customer__img {
+    margin-top: 150px;
+    margin-left: 0;
+    width: 367px;
   }
   .waiting {
     display: none;
